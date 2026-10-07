@@ -112,7 +112,7 @@ class Program
                     case 4:
                         restoreUses--;
                         playerMemory += 3;
-                        if (playerMemory > 5) playerMemory = 5;
+                        if (playerMemory > 5) playerMemory = 10;
                         Console.WriteLine($"\n[ВОССТАНОВЛЕНИЕ] ОЗУ пополнено. Осталось восстановлений: {restoreUses}");
                         break;
 
