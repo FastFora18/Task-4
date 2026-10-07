@@ -45,7 +45,7 @@ class Program
                 do
                 {
                     Console.WriteLine("\nВыберите действие:");
-                    Console.WriteLine("1 — Базовая атака (расход ЦП: 0)");
+                    Console.WriteLine("1 — Загрузить вирус (расход ЦП: 0)");
                     Console.WriteLine("2 — Взлом ядра (расход ОЗУ: 2)");
                     Console.WriteLine("3 — Экранирование (снижение входящего урона на 50%)");
                     Console.WriteLine("4 — Восстановление ОЗУ (расход: 1 использование)");
