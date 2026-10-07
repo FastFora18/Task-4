@@ -12,7 +12,7 @@ class Program
         int restoreUses = 5;
 
         Console.WriteLine("=== СЕТТИНГ: КИБЕРПАНК ===");
-        Console.WriteLine("Вы — нетраннер-наемник. Ваша цель — прорваться сквозь защиту мегакорпорации.\n");
+        Console.WriteLine("Вы — нетраннер-наемник. Ваша цель — получить доступ к ядру ИИ.\n");
 
         int[][] enemies = new int[][]
         {
@@ -93,14 +93,14 @@ class Program
                 {
                     case 1:
                         int baseDamage = 25;
-                        Console.WriteLine($"\n[АТАКА] Пакет данных отправлен. Урон: {baseDamage}");
+                        Console.WriteLine($"\n[АТАКА] Вирус загружен. Урон: {baseDamage}");
                         enemyHp -= baseDamage;
                         break;
 
                     case 2:
                         playerMemory -= 2;
                         int critDamage = new Random().Next(30, 50);
-                        Console.WriteLine($"\n[ВЗЛОМ] Перегрузка шины! Урон: {critDamage}");
+                        Console.WriteLine($"\n[ВЗЛОМ] Взлом удался! Урон: {critDamage}");
                         enemyHp -= critDamage;
                         break;
 
